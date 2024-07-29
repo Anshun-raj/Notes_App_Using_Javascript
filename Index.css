@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+}
+
+.main{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   height: 640px;
+   align-items: center;
+   padding: 40px 0;
+
+}
+
+.main h1{
+    font-weight: bold;
+    font-size: 40px;
+    padding: 10px 0;
+    text-decoration: underline red;
+}
+
+.main input{
+    height: 5vh;
+    width: 300px;
+    margin: 0 40px;
+}
+
+.main input::placeholder{
+    color: red;
+}
+
+.main button{
+    padding: 9px 10px;
+    border: none;
+    font-weight: bold;
+    background-color: black;
+    color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.section{
+    padding: 40px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+li{
+    background-color: yellow;
+    border-radius: 2px;
+    padding: 8px 16px;
+    font-size: 16px;
+    width: 150px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
